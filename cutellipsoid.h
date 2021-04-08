@@ -2,7 +2,6 @@
 #define CUTELLIPSOID_H
 
 #include "figurageometrica.h"
-#include "sculptor.h"
 
 class CutEllipsoid : public FiguraGeometrica{
     protected:
@@ -11,7 +10,7 @@ class CutEllipsoid : public FiguraGeometrica{
     public:
         CutEllipsoid(int _xcenter, int _ycenter, int _zcenter, int _rx, int _ry, int _rz, float _r,float _g,float _b,float _a);
         ~CutEllipsoid();
-        void draw(Sculptor &t)=0;
+        void draw(Sculptor &t);
 };
 
 #endif // CUTELLIPSOID_H

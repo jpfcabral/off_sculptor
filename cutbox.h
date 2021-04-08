@@ -1,8 +1,7 @@
-#ifndef PUTBOX_H
-#define PUTBOX_H
+#ifndef CUTBOX_H
+#define CUTBOX_H
 
 #include "figurageometrica.h"
-#include "sculptor.h"
 
 class CutBox : public FiguraGeometrica{
     protected:
